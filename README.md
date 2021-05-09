@@ -64,10 +64,11 @@ Salad: https://github.com/SaladTechnologies/salad-applications
 * Find your Wallet Address.
 	+ In notepad press `ctrl+f` and search `wallet`.
 		- You will find `Nicehash wallet address` and `Nicehash rig id`.
-	+ Copy your Nicehash wallet address and Nicehash worker id and put them in a .txt file in this order: `WalletAddress.RigId`
-		
-		- Copy this code and boom, you have your wallet address!
-		
+	+ Copy your Nicehash wallet address and Nicehash worker id and put them in the config.json file in this order: `WalletAddress.WorkerId`
+		- Like this:
+			![](https://i.imgur.com/C7dgKQL.png)
+
+
 #### If you need more help finding your Wallet Address, dm Walkx#0069 on discord!
 
-## If you get any errors / problems check the [COMMON BUGS](https://github.com/Walker21390/SaladCLI_Plus/blob/main/CommonBugs.md) page. If you need more help please dm Walkx#0069 on Discord.
+#### If you get any errors / problems check the [COMMON BUGS](https://github.com/Walker21390/SaladCLI_Plus/blob/main/CommonBugs.md) page. If you need more help please dm Walkx#0069 on Discord.
