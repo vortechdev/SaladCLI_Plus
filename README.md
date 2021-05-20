@@ -3,7 +3,7 @@
 ![](https://img.shields.io/github/stars/Walker21390/SaladCLI_Plus.svg) ![](https://img.shields.io/github/forks/Walker21390/SaladCLI_Plus.svg) ![](https://img.shields.io/github/tag/Walker21390/SaladCLI_Plus.svg) ![](https://img.shields.io/github/release/Walker21390/SaladCLI_Plus.svg) ![](https://img.shields.io/github/issues/Walker21390/SaladCLI_Plus.svg) ![](https://img.shields.io/github/license/Walker21390/SaladCLI_Plus.svg)
 
 
-#### Support me and use code `01SE1X` on Salad!
+#### Salad CLI+ uses your AUTH code to view your Balance, Lifetime balance & XP. Via the Salad api. I cannot see your AUTH. The code is open-source and you can check it all.
 
 
 ## [BUG / ERROR FIXES](https://github.com/Walker21390/SaladCLI_Plus/blob/main/CommonBugs.md)
