@@ -171,23 +171,23 @@ def choose_pool(logo):
 
         if select == "1":
             os.system("OptimizeGPU.bat")
-            os.system(r"Miners\Trex\t-rex.exe --algo ethash --url stratum+tcp://" +
-                      region + ".ethermine.org:4444 --user " + (ethermine_wallet) + " " + (miner_commands))
+            os.system(r"Miners\Trex\t-rex.exe --algo ethash --url stratum+ssl://" +
+                      region + ".ethermine.org:5555 --user " + (ethermine_wallet) + " " + (miner_commands))
 
         if select == "2":
             os.system("OptimizeGPU.bat")
             os.system(
-                r"Miners\NBMiner\nbminer.exe -a ethash -o stratum+tcp://" + region + ".ethermine.org:4444 -u " + (ethermine_wallet) + r" -d 0 --no-watchdog" + " " + (miner_commands))
+                r"Miners\NBMiner\nbminer.exe -a ethash -o stratum+ssl://" + region + ".ethermine.org:5555 -u " + (ethermine_wallet) + r" -d 0 --no-watchdog" + " " + (miner_commands))
 
         if select == "3":
             os.system("OptimizeGPU.bat")
-            os.system(r"Miners\PhoenixMiner-5.6d\PhoenixMiner.exe -rmode 0 -rvram 1 -pool stratum+tcp://" +
-                      region + ".ethermine.org:4444 -ewal " + (ethermine_wallet) + " -esm 3 -allpools 1 -allcoins 0" + " " + (miner_commands))
+            os.system(r"Miners\PhoenixMiner-5.6d\PhoenixMiner.exe -rmode 0 -rvram 1 -log 0 -pool ssl://" +
+                      region + ".ethermine.org:5555 -ewal " + (ethermine_wallet) + " -esm 3 -allpools 1 -allcoins 0" + " " + (miner_commands))
 
         if select == "4":
             os.system("OptimizeGPU.bat")
-            os.system(r"Miners\ETHMiner\ethminer.exe -P stratum+tcp://" +
-                      (ethermine_wallet) + r"@" + region + ".ethermine.org:4444" + " " + (miner_commands))
+            os.system(r"Miners\ETHMiner\ethminer.exe -P stratum+ssl://" +
+                      (ethermine_wallet) + r"@" + region + ".ethermine.org:5555" + " " + (miner_commands))
 
         if select == "exit":
             return False
