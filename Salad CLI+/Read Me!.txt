@@ -1,1 +1,193 @@
-To setup your config.json please read https://github.com/WalkxCode/SaladCLI_Plus#configuring
+
+For a Better online guide go to https://github.com/WalkxCode/SaladCLI_Plus#how-to-install-salad-cli
+
+
+
+░██████╗░█████╗░██╗░░░░░░█████╗░██████╗░  ░█████╗░██╗░░░░░██╗░░░░░░░
+██╔════╝██╔══██╗██║░░░░░██╔══██╗██╔══██╗  ██╔══██╗██║░░░░░██║░░██╗░░
+╚█████╗░███████║██║░░░░░███████║██║░░██║  ██║░░╚═╝██║░░░░░██║██████╗
+░╚═══██╗██╔══██║██║░░░░░██╔══██║██║░░██║  ██║░░██╗██║░░░░░██║╚═██╔═╝
+██████╔╝██║░░██║███████╗██║░░██║██████╔╝  ╚█████╔╝███████╗██║░░╚═╝░░
+╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚═════╝░  ░╚════╝░╚══════╝╚═╝░░░░░░░
+
+________________________________________________________________________________________________________________________________________
+
+Installing And Configuring
+_________________________________________________________________________________________________________________________________________
+
+Install Python - 1 -
+Getting the Auth Token - 2 (Skip this step if you have the mining only version)
+Getting your wallets - 3
+Installing depencies - 4
+Generating the Config.JSON file - 5
+Using CLI+ - 6
+Common Bugs & Fixes - 7
+
+_________________________________________________________________________________________________________________________________________
+
+  $$\                                                                           
+$$$$ |                                                                          
+\_$$ |                                                                          
+  $$ |                                                                          
+  $$ |                                                                          
+  $$ |                                                                          
+$$$$$$\                                                                         
+\______|      
+
+_________________________________________________________________________________________________________________________________________
+
+Go to https://www.python.org/ and Download the latest version.
+Open the installer.
+On the first page make sure to click "Install python to PATH". If you don't do this Salad CLI+ won't run.
+Click install now.
+    - If you get a pop-up saying "Disable PATH length." make sure to click and enable it.
+
+_________________________________________________________________________________________________________________________________________
+
+ $$$$$$\                                                                                            
+$$  __$$\                                                                                           
+\__/  $$ |                                                                                          
+ $$$$$$  |                                                                                          
+$$  ____/                                                                                           
+$$ |                                                                                                
+$$$$$$$$\                                                                                           
+\________|                                                                                          
+                                                                                                    
+_________________________________________________________________________________________________________________________________________                                                                                                   
+                                                                                                    
+How to find your AUTH code?
+Go to app.salad.io
+Login with your Salad account.
+Click on the Cookies icon (Should look like an lock on firefox) on the left side of the Search bar.
+Click on "Cookies".
+Open the app-api.salad.io folder in the cookies.
+Open Salad.Authentication.
+Right-Click on the Content in the Salad.Authentication cookie, and click Select-all.
+Right-Click and click Copy.
+
+_________________________________________________________________________________________________________________________________________   
+
+ $$$$$$\                                                                                                
+$$ ___$$\                                                                                               
+\_/   $$ |                                                                                              
+  $$$$$ /                                                                                               
+  \___$$\                                                                                               
+$$\   $$ |                                                                                              
+\$$$$$$  |                                                                                              
+ \______/                                                                                               
+                                                                                                                                                                                                           
+_________________________________________________________________________________________________________________________________________                                                                                                           
+                                                          
+Completely close Salad. (Make sure to close it from the taskbar too.)
+Re-open Salad and Mine for 5 minutes. This does not include prepping time.
+Go to the "Earn" tab.
+On the left side click "Miner Details" in the menu.
+Scroll down until you see the "Show Folder" button and click it.
+Open the main.log file.
+Press Ctrl+F and search for "Wallet".
+Here you will see "Nicehash Wallet", "Nicehash RigId", "Ethermine wallet", and "Ethermine WorkerID".
+These are your wallets and RigId's.
+
+_________________________________________________________________________________________________________________________________________
+
+$$\   $$\                                                                           
+$$ |  $$ |                                                                          
+$$ |  $$ |                                                                          
+$$$$$$$$ |                                                                          
+\_____$$ |                                                                          
+      $$ |                                                                          
+      $$ |                                                                          
+      \__|                                                                          
+                                                                                    
+_________________________________________________________________________________________________________________________________________
+
+Run SETUP.bat and install the depencies automatically!
+
+_________________________________________________________________________________________________________________________________________
+
+$$$$$$$\                                                                                      
+$$  ____|                                                                                     
+$$ |                                                                                          
+$$$$$$$\                                                                                      
+\_____$$\                                                                                     
+$$\   $$ |                                                                                    
+\$$$$$$  |                                                                                    
+ \______/                                                                                     
+
+_________________________________________________________________________________________________________________________________________
+
+Go to the https://tpelaaja.github.io/Configure-CLI (The Config Generator)
+Choose the version of Salad CLI+ you're using (eg. v5/6, v7, v7 only mining edition.).
+Fill in your AUTH code, Wallet(s) and RigID like shown.
+Click the "Download" button to download your config.json.
+Put the config.json file in the Salad CLI+ folder.
+
+_________________________________________________________________________________________________________________________________________
+
+ $$$$$$\                                    
+$$  __$$\                                   
+$$ /  \__|                                  
+$$$$$$$\                                    
+$$  __$$\                                   
+$$ /  $$ |                                  
+ $$$$$$  |                                  
+ \______/                                   
+                                            
+_________________________________________________________________________________________________________________________________________
+
+Starting Salad CLI+
+    - To start Salad CLI+, run the Start.py file.
+
+Selecting a option from the menu
+    - To select a option from the menu, press the corresponding key on your keyboard and press enter.
+
+Quiting Salad CLI+
+    - To quit Salad CLI+ simply close the program or press Control + C           
+
+_________________________________________________________________________________________________________________________________________
+
+BUG FIXES                                                                                              
+                                                                                                          
+_________________________________________________________________________________________________________________________________________
+
+Start.py closes directly after running.
+    - Make sure you have python installed to PATH. (https://www.educative.io/edpresso/how-to-add-python-to-path-variable-in-windows)
+    - Make sure you've ran Setup.bat.
+
+"Python cannot be found"
+    - Make sure you have python installed to PATH. (https://www.educative.io/edpresso/how-to-add-python-to-path-variable-in-windows)
+
+Phoenixminer Kernel error
+    - Join the Support Discord Server. And we will send you a custom Mining.py file. (for free ofc)
+
+Cannot find 'wallet'
+    - Try refreshing the logs, like shown above.
+
+Can't find the Salad AUTH code / Can't open cookies.
+    - Make sure you're logged in on app.salad.io
+    - Try another browser. (eg. Chrome / Brave)
+
+Salad AUTH code error when launching Start.py
+    - Re-copy the AUTH code.
+        - Your AUTH code should be 600+ characters.
+    - Refresh app.salad.io
+    - Try another browser. (eg. Chrome / Brave)
+    - Re-login on app.salad.io
+
+The Setup.bat immediately closes after launching / Gives an error.
+    - Make sure you installed python to PATH. https://datatofish.com/add-python-to-windows-path/
+
+Other issues / Bugs.
+    - Join the Support Discord Server (https://discord.gg/dvmbZ42mKe)
+
+_________________________________________________________________________________________________________________________________________
+
+
+┏━━━┓   ┏┓                       ┏┓       ┏┓           ┏━━━┓   ┏━━━┓
+┃┏━┓┃   ┃┃                       ┃┃       ┃┃           ┃┏━┓┃   ┃┏━━┛
+┃┃╋┗╋┓┏┳┳━┛┣━━┓  ┏┓┏┳━━┳━┛┣━━┓  ┃┗━┳┓  ┏┓  ┗┛┏┛┣━━┫┗━━┓
+┃┃┏━┫┃┃┣┫┏┓┃┃━┫  ┃┗┛┃┏┓┃┏┓┃┃━┫  ┃┏┓┃┃  ┃┃  ┏┓┗┓┃┏┓┃┏━━┛
+┃┗┻━┃┗┛┃┃┗┛┃┃━┫  ┃┃┃┃┏┓┃┗┛┃┃━┫  ┃┗┛┃┗━┛┃  ┃┗━┛┃┗┛┃┃
+┗━━━┻━━┻┻━━┻━━┛  ┗┻┻┻┛┗┻━━┻━━┛  ┗━━┻━┓┏┛  ┗━━━┻━━┻┛
+                                                  ┏━┛┃
+                                                  ┗━━┛                                                                                          
