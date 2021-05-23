@@ -41,7 +41,7 @@
 ###### Downloading / Installing Python
 1. Go to https://www.python.org/ and Download the latest version.
 2. Open the installer.
-3. On the first page make sure to click "Install python to PATH". *If you don't do this Salad CLI+ won't run.*
+3. **On the first page make sure to click "Install python to PATH".** *If you don't do this Salad CLI+ won't run.*
 4. Click install now.
     + If you get a pop-up saying "Disable PATH length." make sure to click and enable it.
 
