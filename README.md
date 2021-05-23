@@ -48,7 +48,7 @@
 
 #### Configuring
 
-###### How to find your AUTH code?
+###### How to find your AUTH code? (Skip this step if you're using the Mining only edition.)
 1. Go to app.salad.io
 2. Login with your Salad account.
 3. Click on the Cookies icon ![](https://images-ext-2.discordapp.net/external/307zW6hU-4O2g0TaCN3VXR29D-byDrPOxcvtV7k5fTs/https/i.imgur.com/rCpRXdW.png) on the left side of the Search bar.
