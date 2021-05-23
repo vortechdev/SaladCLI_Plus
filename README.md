@@ -48,7 +48,7 @@
 
 #### Configuring
 
-###### How to find your AUTH code?
+###### How to find your AUTH code? (Skip this step if you're using the Mining only edition.)
 1. Go to app.salad.io
 2. Login with your Salad account.
 3. Click on the Cookies icon ![](https://images-ext-2.discordapp.net/external/307zW6hU-4O2g0TaCN3VXR29D-byDrPOxcvtV7k5fTs/https/i.imgur.com/rCpRXdW.png) on the left side of the Search bar.
@@ -71,9 +71,10 @@
 
 ###### Generating the config.json
 1. Go to the [Salad CLI+ Config Generator](https://tpelaaja.github.io/Configure-CLI/#/asf).
-2. Fill in your AUTH code, Wallet(s) and RigID like  shown.
-3. Click the "Download" button to download your config.json.
-4. Put the config.json file in the Salad CLI+ folder.
+2. Choose the version of Salad CLI+ you're using (eg. v5/6, v7, v7 only mining edition.).
+3. Fill in your AUTH code, Wallet(s) and RigID like  shown.
+4. Click the "Download" button to download your config.json.
+5. Put the config.json file in the Salad CLI+ folder.
 
 
 ---

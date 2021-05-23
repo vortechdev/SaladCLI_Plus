@@ -1,0 +1,1 @@
+To setup your config.json please read https://github.com/WalkxCode/SaladCLI_Plus#configuring
